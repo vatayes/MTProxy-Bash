@@ -41,17 +41,6 @@ green='\033[0;32m'
 yellow='\033[0;33m'
 plain='\033[0m'
 
-# 打印欢迎信息
-clear
-echo "---------------------------------------------"
-echo "  Install MTProxy For Telegram with Onekey"
-echo "  Author: 雨落无声"
-echo "  URL: https://ylws.me"
-echo "  Telegram: https://t.me/ylwsclub"
-echo "---------------------------------------------"
-echo ""
-
-
 if [ -f "/etc/secret" ]; then 
 	IP=$(curl -4 -s ip.sb)
 	SECRET=$(cat /etc/secret)
